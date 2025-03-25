@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  font-family: "Playfair Display", serif;
+}
+
+h1,
+h2{
+  color:rgb(0, 119, 230);
+}
+
+.class-name{
+  text-transform: uppercase; 
+  color: rgb(0, 38, 77);
+  letter-spacing: 10px;
+  font-size:.8rem;
+  border-bottom:10px dotted rgb(56, 152, 241);
+  padding-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+p{
+  font-weight: 300; 
+}
+
+a{
+  text-decoration: underline overline;
+}
+
+.container{
+  display: flex;
+  gap: 10px;  
+}
+
+.projects-item {
+    padding: 10px;
+    margin: 5px;
+    background: rgba(162, 195, 255, 0.959);
+    border: rgb(0, 119, 255) 1px solid;
+    flex: 1;
+}

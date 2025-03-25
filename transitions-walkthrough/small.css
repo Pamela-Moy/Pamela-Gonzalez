@@ -1,0 +1,18 @@
+a {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all linear 0.1s;
+}
+
+nav{
+    display: grid;
+    gap: 0.25rem;
+}
+
+a:hover{
+    background-color:#cc27ff;
+    color: #ffffff
+}

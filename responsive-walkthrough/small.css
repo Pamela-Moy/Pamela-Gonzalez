@@ -1,0 +1,10 @@
+@media only screen and (max-width:620px){
+    .main{
+        grid-template-columns: 1fr;
+    }
+
+    .menu{
+        flex-direction: row;
+    }
+}
+    
