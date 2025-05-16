@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forms</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1></h1>
+    <form action="javascript:void(0)">
+        <label for="fname">First Name:</label>
+        <input class= "input-area" type="text" name="fname" required>
+        <label for="lname">Last Name:</label>
+        <input class=" input-area" type="text" name="lname" required>
+        <label for="email">Email:</label>
+        <input class="input-area" type="email" name="email" required>
+        <label for="Happy-Birthday">Birthday:</label>
+        <input class="date" type="date" name="Happy-Birthday" required>
+        <label for="age">Age:</label>
+        <input class= "input-area" type="number" name="age" required>
+        <label for="Nationality">Nationality:</label>
+        <select name="Nationality">
+            <option>Mexico</option>
+            <option>United States</option>
+        </select>
+        <label for="gender">Gender:</label>
+        <select name="gender">
+            <option>Female</option>
+            <option>Male</option>
+        </select>
+        <label for="fcolor">Favorite Color:</label>
+        <input class= "input-area" type="color" name="fcolor" required>
+        <label for="password">New password:</label>
+        <input class= "input-area" type="password" name="password" required>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</body>
+</html>

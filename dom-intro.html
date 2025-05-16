@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            font-family: system-ui;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height:  200vh;
+
+        }
+
+        p {
+            font-size:4rem;
+            font-weight:bold;
+            background-color:rgb(255, 255, 255);
+            border-radius:1rem;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <p>Today is <span id="label"></span></p>
+    <button onclick="changeColor()">Make the text orange!</button>
+
+
+    <script>
+        let date= new Date();
+        let weekday = date.getDay();
+        console.log(weekday);
+        let label;
+
+        if (weekday == 0){
+            label="Sunday :)";
+        }else if (weekday == 1){
+            label = "Monday :)";
+        }else if (weekday == 2){
+            label = "Tuesday ;)";
+        }else if (weekday == 3){
+            label = "Wednesday :)";
+        }else if (weekday == 4){
+            label = "Thursday :)";
+        }else if (weekday == 5){
+            label = "Friday!";
+        }else if (weekday == 6){
+          label = "Saturday!";
+        }
+
+        console.log(label);
+        document.getElementById("label").innerHTML=label; 
+        document.title ="Today is" + label;
+
+        function changeColor(){
+            let mytext=document.querySelector("p");
+            let currentcolor =window.getComputedStyle(mytext).
+            color;
+            console.log(currentcolor);
+
+            if ( currentcolor == "rgb(0, 0, 0)"){
+                mytext.style.color="orange";
+            } else {
+                mytext.style.color="black";
+            }
+
+            let buttonText= document.querySelector("button").
+            innerText;
+            console.log(buttonText);
+
+        }
+
+    </script>
+
+</body>
+</html>

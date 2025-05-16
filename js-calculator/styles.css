@@ -1,0 +1,60 @@
+*{
+    font-family: system-ui;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+h1{
+    text-align: center;
+}
+.cajitagei{
+    border: 5px solid rgb(117, 167, 173);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: rgb(207, 236, 255);
+}
+input{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.operation-button{
+    background-color: rgb(158, 193, 194);
+    padding: 1rem;
+    border: 1px solid rgb(43, 107, 109);
+    font-size: 1.5rem;
+    cursor:pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.button-container{
+    display: flex;
+    gap: 1rem;
+}
+
+
+input{
+    padding: 1rem;
+
+}
+
+#resutl {
+    font-size: 20rem;
+    font-weight: bold;
+    padding: 1rem;
+
+}

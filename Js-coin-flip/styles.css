@@ -1,0 +1,47 @@
+*{
+    font-family: system-ui;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.coin-button{
+    background-color: rgba(58, 139, 231, 0.87);
+    padding: 1rem;
+    border: 1px solid rgba(0, 140, 255, 0.774);
+    font-size: 1.5rem;
+    cursor:pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.button-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.Cajaaaaaaa{
+    border: 5px solid rgba(4, 83, 148, 0.637);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: rgba(0, 225, 255, 0.74);
+
+}
+
